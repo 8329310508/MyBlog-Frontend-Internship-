@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyBlog - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>MyBlog Dashboard</h2>
+    <div><a href="index.html">Home</a><a href="login.html">Logout</a></div>
+  </nav>
+
+  <main class="container">
+    <div class="dashboard-head">
+      <div>
+        <h1>Blog Dashboard</h1>
+        <p>Create and manage your blog posts.</p>
+      </div>
+      <a class="btn" href="#create">Create Blog</a>
+    </div>
+
+    <div id="posts" class="cards"></div>
+
+    <section id="create" class="form-box wide">
+      <h2>Create New Blog</h2>
+      <form onsubmit="createPost(event)">
+        <input id="title" type="text" placeholder="Blog Title" required>
+        <input id="category" type="text" placeholder="Category" required>
+        <textarea id="content" placeholder="Write your blog..." required></textarea>
+        <button class="btn" type="submit">Publish Blog</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
