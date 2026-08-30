@@ -24,12 +24,12 @@ A responsive Full Stack Blog Application frontend development during my Full Sta
 
 ## Project Structure
 
--'index.html'-Home page
--'login.html'-Login page
--'register.html'-Registration page
--'dashboard.html'-Dashboard
--'style.css'-Styling and responsive design
--'script.js'-JavaScript functionality
+-index.html-Home page
+-login.html-Login page
+-register.html-Registration page
+-dashboard.html-Dashboard
+-style.css-Styling and responsive design
+-script.js-JavaScript functionality
 
 ## Purpose
 
