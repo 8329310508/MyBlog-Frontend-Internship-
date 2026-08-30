@@ -15,14 +15,14 @@ A responsive Full Stack Blog Application frontend development during my Full Sta
 -JavaScript Form Validation 
 -User-friendly UI
 
-##Technologies Used
+## Technologies Used
 
 -HTML5
 -CSS3
 -JavaScript
 -Vite
 
-##Project Structure
+## Project Structure
 
 -'index.html'-Home page
 -'login.html'-Login page
@@ -31,15 +31,15 @@ A responsive Full Stack Blog Application frontend development during my Full Sta
 -'style.css'-Styling and responsive design
 -'script.js'-JavaScript functionality
 
-##Purpose
+## Purpose
 
 This project was created as part of my Full Stack Web Development Internship to Practice frontend development, user interface design, form validation, and blog application functionality.
 
-##Author
+## Author
 
 Sonal Patil
 
-##Internship Project
+## Internship Project
 
 Full Stack Web Development Internship
 
