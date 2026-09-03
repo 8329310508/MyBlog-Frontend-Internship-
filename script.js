@@ -5,7 +5,7 @@ async function registerUser(e){
   const password=document.getElementById('password').value;
   try{
     const response=await
-    fetch('http://localhost:3000/api/register',{
+    fetch('https://myblog-backend-internship.onrender.com/users',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
@@ -34,7 +34,7 @@ async function loginUser(e){
   const password=document.getElementById('loginPassword').value;
   try{
     const response=await
-    fetch('http://localhost:3000/api/login',{
+    fetch('https://myblog-backend-internship.onrender.com/users',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
